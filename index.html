@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>3dvr-backpack</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://placehold.co/32x32/png?text=B" type="image/png" />
 </head>
 <body class="bg-gradient-to-b from-gray-900 to-black text-white font-sans">
 
@@ -37,12 +38,22 @@
     <section class="bg-gray-800 p-6 rounded-lg text-center">
       <h3 class="text-xl font-semibold mb-2">Join the early access list</h3>
       <p class="mb-4 text-gray-400">Be the first to hear when it's ready. Get updates, discounts, and behind-the-scenes looks.</p>
+
+      <!-- Form (optional) -->
       <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
         <input type="email" name="email" required placeholder="you@example.com"
           class="w-full p-3 rounded bg-gray-900 border border-gray-600 text-white" />
         <button type="submit"
           class="w-full p-3 bg-yellow-400 text-black font-bold rounded hover:bg-yellow-300 transition">Notify Me</button>
       </form>
+
+      <div class="my-4 text-sm text-gray-400">or</div>
+
+      <!-- Email Button -->
+      <a href="mailto:tmsteph@gmail.com,3dvr.tech@gmail.com?subject=3dvr-backpack Early Access&body=Hi Thomas, I’m interested in the 3dvr-backpack!"
+         class="inline-block px-6 py-3 bg-yellow-500 text-black font-semibold rounded hover:bg-yellow-400 transition">
+        Email Us Directly
+      </a>
     </section>
 
     <!-- Back to Main Site -->
